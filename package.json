@@ -1,0 +1,24 @@
+{
+  "name": "vui-base",
+  "version": "0.1.0",
+  "description": "Base UI component for VUI.",
+  "main": "main.css",
+  "scripts": {
+    "build": "myth src/index.css main.css",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vui/vui-base.git"
+  },
+  "keywords": [
+    "UI",
+    "Mobile",
+    "Vue"
+  ],
+  "author": "Hsiaoming Yang <me@lepture.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "myth": "^1.5.0"
+  }
+}
